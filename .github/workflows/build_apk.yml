@@ -13,6 +13,8 @@ jobs:
         with:
           flutter-version: '3.x'
           channel: 'stable'
+      - name: Create Android boilerplate
+        run: flutter create . --org com.trading.ai --project-name trading_ai_app --platforms=android
       - run: flutter pub get
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v3
