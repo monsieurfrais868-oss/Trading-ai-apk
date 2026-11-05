@@ -64,7 +64,7 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
 
     try {
       // Remplace par ta clé API Gemini ou ton endpoint
-      const apiKey = "TA_CLE_API_GEMINI"; 
+      const apiKey = "AQ.Ab8RN6JKeXwSHpGwo8m1dif66PMzoQnQZE7q-MmHUEjPXcyl0Q"; 
       final url = Uri.parse('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=$apiKey');
 
       // Conversion des images en Base64
